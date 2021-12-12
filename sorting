@@ -1,0 +1,7 @@
+Merge Sort-
+T(n)=2T(n/2)+O(n)
+given an array split array into two halfs you call mergesort on two halfs (that's way 2 in recurrence relation) and merge(merging two sorted array) takes O(n) time 
+level=logN
+at every level = cN work 
+total TC=O(NlogN).
+////////////////////////////////////////////////
