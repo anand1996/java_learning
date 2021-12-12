@@ -1,1 +1,12 @@
 Binary tree - as per name either one ,two or zero children
+
+
+
+
+
+
+Binary Search Tree--
+left child of root smaller then root, right child of root greater then root
+All operations are O(h) where h is height of the BST
+h=n for skewed tree
+h=logN for balanced tree(like Avl , red-Black tree)
