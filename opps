@@ -1,0 +1,23 @@
+Class and Object
+A class is a template for an object, and an object is an instance of a class.
+A class creates a new data type that can be used to create objects.
+
+When you declare an object of a class, you are creating an instance of that class.
+Thus, a class is a logical construct. An object has physical reality. (That is, an object occupies space in memory.)
+It is important to understand that new allocates memory for an object during run time.
+//////////////////////////////////////////////
+//////////
+The dot operator links the name of the object with the name of an instance variable.
+Although commonly referred to as the dot operator, the formal specification for Java categorizes the . as a separator.
+The 'new' keyword dynamically allocates(that is, allocates at run time)memory for an object & returns a reference to it.
+This reference is, more or less, the address in memory of the object allocated by new.
+This reference is then stored in the variable.
+Thus, in Java, all class objects must be dynamically allocated.
+
+The key to Java’s safety is that you cannot manipulate references as you can actual pointers.
+Thus, you cannot cause an object reference to point to an arbitrary memory location or manipulate it like an integer.
+
+The this Keyword:
+Sometimes a method will need to refer to the object that invoked it. To allow this, Java defines the this keyword.
+this can be used inside any method to refer to the current object. That is, this is always a reference to the object on
+which the method was invoked.
