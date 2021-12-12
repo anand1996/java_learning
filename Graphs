@@ -1,0 +1,3 @@
+DFs(Depth first search)
+Every edge get visited once in directed graph. 
+Every edge get visited twise in undirected graph.
